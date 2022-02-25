@@ -1,0 +1,81 @@
+.header-logo {
+  height: 40px;
+  object-fit: contain;
+  margin-right: 50px;
+}
+
+.searchPage-header {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.searchPage-header-input > .home-body > .search-input {
+  width: 700px;
+  border: none;
+  box-shadow: 1px 2px 5px 0.5px rgb(214, 214, 214);
+}
+
+.searchPage-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.searchPage-options-left {
+  display: flex;
+}
+
+.option {
+  border: none;
+  background-color: transparent;
+  margin: 0px 10px;
+  color: rgb(112, 112, 112);
+  display: flex;
+  align-items: center;
+}
+
+.option:hover {
+  color: blue;
+}
+
+.results-count {
+  color: rgb(112, 112, 112);
+  font-size: 0.9rem;
+}
+
+.searchPage-results {
+  padding: 10px 200px;
+  font-family: arial, sans-serif;
+}
+
+.search_result_item {
+  margin-top: 20px;
+}
+
+.search_result_item a:nth-child(2):hover {
+  text-decoration: underline;
+}
+
+.search_result_item a,
+p {
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+  font-size: 0.9rem;
+}
+
+.search_result_item p {
+  color: rgb(100, 100, 100);
+}
+
+.item_title {
+  font-weight: lighter;
+  color: rgb(16, 16, 173);
+  font-size: 1.2rem;
+  margin: 4px 0px;
+}
